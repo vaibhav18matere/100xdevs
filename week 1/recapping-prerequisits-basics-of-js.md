@@ -8,7 +8,7 @@
 - NODE.JS => Not language, No Framework; It's JS runtime; Engine for chrome.
 
 #### Problems
-- 1. print name and age
+- 1. print name and age of all users
 ```js
 var users = [
      {
@@ -23,4 +23,6 @@ var users = [
      },
 ];
 ```
-- print count from 0 to 100
+- print count from 0 to 100.
+- calculate sum from 0 to 10 or 10 to 50.
+- write a function which takes another function as an argument and does something.
