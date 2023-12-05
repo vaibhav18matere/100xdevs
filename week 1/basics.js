@@ -125,3 +125,34 @@ function createStarPattern(numOfRows) {
 
 createStarPattern(6);
 
+// PRINT HOLLOW SQAURE PATTERN
+
+function singleRowStars(n) {
+     var str = "";
+     for (var i = 0; i < n; i++){
+          str = str + "*";
+     }
+     console.log(str);
+}
+
+function partialRowStar(n) {
+     var str = "";
+     str = str + "*";
+     for (var i = 0; i < n - 2; i++){
+          str = str + " "; // blank space added here
+     }
+     str = str + "*";
+     console.log(str);
+}
+
+function hollowSquare(n) {
+     singleRowStars(n);
+     // partialRowStar(n)
+     for (var i = 0; i < n - 2; i++){
+          partialRowStar(n)
+     }
+     singleRowStars(n)
+}
+
+hollowSquare(6)
+
